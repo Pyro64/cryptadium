@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptadium</title>
+    <link rel="stylesheet" href="./css/Chart.min.css">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="./plugins/build/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <div class="login">
+                    <div class="login__status">
+                        <div class="login__status-item">Активный</div>
+                        <div class="questions">
+                            <div class="questions__svg questions-js"></div>
+                            <span class="questions__block">
+                                <div class="questions__block-text questions__block-text--green">
+                                    <span>Успешно</span> - операция состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--red">
+                                    <span>Отклонено</span> - операция не состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--yellow">
+                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="login__name">Иван Константинополь...</div>
+                </div>
+                <div class="header__out"></div>
+            </div>
+            <div class="burger">
+                <div class="burger__icon"></div>
+            </div>
+        </div>
+        <div class="flag">
+            <div class="flag__close"></div>
+            <div class="flag__container">
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <nav class="header__nav">
+                    <a href="" class="header__link">Кому подойдёт</a>
+                    <a href="" class="header__link">Возможности</a>
+                    <a href="" class="header__link">Как подключить</a>
+                    <a href="" class="header__link">FAQ</a>
+                </nav>
+            </div>
+            <div class="header__wrapper">
+                <a href="#" class="header__connect">Подключить</a>
+                <a href="#" class="header__common">Войти</a>
+            </div>
+        </div>
+        </div> -->
+    </header>
+    <section class="section">
+        <div class="sidebar">
+            <nav class="sidebar__nav">
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/home.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Дашборд</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/dollar.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Балансы и вывод</div>
+                </a>
+                <a href="#" class="sidebar__block  sidebar__block-active">
+                    <img src="./image/nav/history.svg" class="sidebar__svg">
+                    <div class="sidebar__text">История операций</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Статистика</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/referal.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Реферальная программа</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Настройки</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/help.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Помощь</div>
+                </a>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="content__tabs">
+                    <div data-targettab="1" class="content__tab active">История платежей</div>
+                    <div data-targettab="2" class="content__tab ">История выводов</div>
+
+                </div>
+                <div class="referal">
+                    <div data-tab="1" class=" content-js content-js--opacity content-js--active">
+                        <div class="content__block">
+                            <div class="history">
+                                <form class="history__search">
+                                    <input type="text" class="history__search-item">
+                                    <button class="history__search-text">
+                                        <img src="./image/icon/search.svg" alt="search">
+                                        <p>Найти</p>
+                                    </button>
+                                </form>
+                                <div class="history__filter">
+                                    <div class="history__filterBtn">Фильтры</div>
+                                    <div class="history__params">
+                                        <div class="history__params-wrapper">
+                                            <div class="history__params-text">Статус</div>
+                                            <div class="history__params-item">
+                                                <select name="currenc" name="" id=""
+                                                    class="select content__select history__select">
+                                                    <option selected value="">Все статусы</option>
+                                                    <option value="">BTC</option>
+                                                    <option value="">BTC</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="history__params-wrapper">
+                                            <div class="history__params-text">Валюта</div>
+                                            <div class="history__params-item">
+                                                <select name="currenc" name="" id=""
+                                                    class="select content__select history__select">
+                                                    <option selected value="">BTC</option>
+                                                    <option value="">BTC</option>
+                                                    <option value="">BTC</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="history__params-wrapper">
+                                            <div class="history__params-text">Период операции</div>
+                                            <div class="history__date">
+                                                <input type="text" placeholder="__ __ __" class="history__date-item"
+                                                    id="datetimepicker1">
+                                                <div class="history__date-text"> - </div>
+                                                <input type="text" placeholder="__ __ __" class="history__date-item"
+                                                    id="datetimepicker2">
+                                                <div class="history__date-icon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="history__params-text history__params-text--clear">Очистить
+                                            фильтры</div>
+                                        <button class="history__search-btn">Показать результаты</button>
+                                        <img class="history__close" src="./image/black-cross.svg" alt="cross">
+                                    </div>
+                                    <div class="history__params-icons">
+                                        <div class="history__params-excel"></div>
+                                        <div class="history__params-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="history__table">
+                                    <div class="history__table-title">
+                                        <div class="history__table-th history__table-th--id history__table-th--none">Id
+                                        </div>
+                                        <div class="history__table-th history__table-th--sum">Сумма</div>
+                                        <div class="history__table-th history__table-th--none">Сумма в криптовалюте
+                                        </div>
+                                        <div class="history__table-th">Статус
+                                            <div class="questions">
+                                                <div class="questions__svg questions-js"></div>
+                                                <div class="questions__block">
+                                                    <div class="questions__block-text questions__block-text--green">
+                                                        <span>Успешно</span> - операция состоялась.
+                                                    </div>
+                                                    <div class="questions__block-text questions__block-text--red">
+                                                        <span>Отклонено</span> - операция не состоялась.
+                                                    </div>
+                                                    <div class="questions__block-text questions__block-text--yellow">
+                                                        <span>Хедж-фонд</span>- средства захеджированы.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="history__table-th history__table-th--code history__table-th--none">
+                                            Адрес кошелька</div>
+                                        <div class="history__table-th history__table-th--date">Дата</div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__number"><span>id:</span>12453</div>
+                                        <div class="history__block">
+                                            <div class="history__block-sum">2 000 000 $</div>
+                                            <div class="history__block-money">123.56005795</div>
+                                        </div>
+                                        <div class="history__block history__block--margin">
+                                            <div class="history__block-wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                            <div class="history__table-item">Хедж-фонд</div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--code">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">18.04.2021</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paging">
+                                    <div class="paging__wrapper">
+                                        <img class="paging__svg" src="./image/icon/double-left.svg" alt="left">
+                                        <img class="paging__svg" src="./image/icon/left.svg" alt="left">
+                                    </div>
+                                    <div class="paging__block">
+                                        <div class="paging__item paging__item--active">1</div>
+                                        <div class="paging__item">2</div>
+                                        <div class="paging__item">3</div>
+                                        <div class="paging__dot">...</div>
+                                        <div class="paging__item">14</div>
+                                        <div class="paging__item">15</div>
+                                        <div class="paging__item">16</div>
+                                    </div>
+                                    <div class="paging__wrapper">
+                                        <img class="paging__svg" src="./image/icon/right.svg" alt="right">
+                                        <img class="paging__svg" src="./image/icon/double-right.svg" alt="right">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="history">
+
+
+
+                                <form class="history__search">
+                                    <input type="text" class="history__search-item">
+                                    <button class="history__search-text">Найти</button>
+                                </form>
+                                <div class="content__null content__null--relative">
+                                    <img class="content__null-img content__null-img--top" src="./image/noContentTop.svg"
+                                        alt="no-content">
+                                    <div class="content__null-text content__null-text--align">По вашим магазинам пока
+                                        что не было ни одной операций
+                                    </div>
+                                    <img class="content__null-img content__null-img--bottom"
+                                        src="./image/noContentBottom.svg" alt="no-content">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div data-tab="2" class=" content-js ">
+                        <div class="content__block">
+                            <div class="history">
+                                <form class="history__search">
+                                    <input type="text" class="history__search-item">
+                                    <button class="history__search-text">Найти</button>
+                                </form>
+                                <div class="history__filter">
+                                    <div class="history__filterBtn">Фильтры</div>
+                                    <div class="history__params">
+                                        <div class="history__params-wrapper">
+                                            <div class="history__params-text">Валюта</div>
+                                            <div class="history__params-item">
+                                                <select name="currenc" name="" id=""
+                                                    class="select content__select history__select">
+                                                    <option selected value="">BTC</option>
+                                                    <option value="">BTC</option>
+                                                    <option value="">BTC</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="history__params-wrapper">
+                                            <div class="history__params-text">Период операции</div>
+                                            <div class="history__date">
+                                                <input type="text" placeholder="__ __ __" class="history__date-item"
+                                                    id="datetimepicker1">
+                                                <div class="history__date-text"> - </div>
+                                                <input type="text" placeholder="__ __ __" class="history__date-item"
+                                                    id="datetimepicker2">
+                                                <div class="history__date-icon"></div>
+                                            </div>
+                                        </div>
+                                        <div class="history__params-text history__params-text--clear">Очистить
+                                            фильтры</div>
+                                        <button class="history__search-btn">Показать результаты</button>
+                                        <img class="history__close" src="./image/black-cross.svg" alt="cross">
+                                    </div>
+                                    <div class="history__params-icons">
+                                        <div class="history__params-excel"></div>
+                                        <div class="history__params-icon"></div>
+                                    </div>
+                                </div>
+                                <div class="history__table">
+                                    <div class="history__table-title">
+                                        <div class="history__table-th history__table-th--newid">Дата</div>
+                                        <div class="history__table-th history__table-th--newsum">Сумма</div>
+                                        <div class="history__table-th history__table-th--none">Сумма в криптовалюте
+                                        </div>
+                                        <div
+                                            class="history__table-th history__table-th--none history__table-th--newcode">
+                                            Адрес кошелька</div>
+                                        <div class="history__table-th history__table-th--date">Id</div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class="history__time">18.04.2021</div>
+                                            <div class="history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="history__table-tbody">
+                                        <div class="history__table-item  history__table-item--between">
+                                            <div class=" history__time">18.04.2021</div>
+                                            <div class=" history__money">2 000 000 $
+                                            </div>
+                                        </div>
+                                        <div class="history__table-item history__table-item--between">
+                                            <div class="history__table-text">123.56005795</div>
+                                            <div class="history__wrapper">
+                                                <img class="history__table-coin" src="./image/coin/dollar.svg"
+                                                    alt="coin">
+                                                <div class="history__table-text history__table-text--nomargin">BTC</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="history__table-item history__table-item--newcode">
+                                            1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
+                                        <div class="history__table-item history__table-item--date">
+                                            <div class="history__table-text">1325</div>
+                                            <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="paging">
+                                    <div class="paging__wrapper">
+                                        <img class="paging__svg" src="./image/icon/double-left.svg" alt="left">
+                                        <img class="paging__svg" src="./image/icon/left.svg" alt="left">
+                                    </div>
+                                    <div class="paging__block">
+                                        <div class="paging__item paging__item--active">1</div>
+                                        <div class="paging__item">2</div>
+                                        <div class="paging__item">3</div>
+                                        <div class="paging__dot">...</div>
+                                        <div class="paging__item">14</div>
+                                        <div class="paging__item">15</div>
+                                        <div class="paging__item">16</div>
+                                    </div>
+                                    <div class="paging__wrapper">
+                                        <img class="paging__svg" src="./image/icon/right.svg" alt="right">
+                                        <img class="paging__svg" src="./image/icon/double-right.svg" alt="right">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <footer class="footer">
+                    <div class="footer__block">
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Условия работы
+                            </div>
+                            <a href="#" class="footer__link">Комиссии сети и сервиса</a>
+                            <a href="#" class="footer__link">Реферальная программа</a>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Контакты
+                            </div>
+                            <div class="footer__text">
+                                <span>Техподдержка</span>
+                                <a href="#" class="footer__link">support@cryptadium.com</a>
+                            </div>
+                            <div class="footer__text">
+                                <span>Сотрудничевство</span>
+                                <a href="#" class="footer__link">info@cryptadium.com</a>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Документы
+                            </div>
+                            <a href="#" class="footer__link">Privacy policy</a>
+                            <a href="#" class="footer__link">Terms of use</a>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                О нас
+                            </div>
+                            <a href="#" class="footer__link">Блог</a>
+                            <a href="#" class="footer__link">О сервисе</a>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Сообщество
+                            </div>
+                            <div class="footer__wrapper">
+                                <a href="#" class="footer__social">
+                                    <img src="./image/icon/fb.svg" alt="fb" class="footer__social-svg"></a>
+                                <a href="#" class="footer__social">
+                                    <img src="./image/icon/twitter.svg" alt="twitter" class="footer__social-svg"></a>
+                                <a href="#" class="footer__social">
+                                    <img src="./image/icon/youtube.svg" alt="youtube" class="footer__social-svg"></a>
+                            </div>
+                            <div class="footer__copyright">©Criptadium 2021</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+    </section>
+    <script src="./plugins/jquery-3.6.0.min.js"></script>
+    <script src="./plugins/Chart.min.js"></script>
+    <script src="./plugins/build/jquery.datetimepicker.full.js"></script>
+    <script src="./plugins/jquery.nice-select.min.js"></script>
+    <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

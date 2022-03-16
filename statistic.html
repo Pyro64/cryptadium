@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptadium</title>
+    <link rel="stylesheet" href="./css/Chart.min.css">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="./plugins/build/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <div class="login">
+                    <div class="login__status">
+                        <div class="login__status-item">Активный</div>
+                        <div class="questions">
+                            <div class="questions__svg questions-js"></div>
+                            <div class="questions__block">
+                                <div class="questions__block-text questions__block-text--green">
+                                    <span>Успешно</span> - операция состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--red">
+                                    <span>Отклонено</span> - операция не состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--yellow">
+                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login__name">Иван Константинополь...</div>
+                </div>
+                <div class="header__out"></div>
+            </div>
+            <div class="burger">
+                <div class="burger__icon"></div>
+            </div>
+        </div>
+        <div class="flag">
+            <div class="flag__close"></div>
+            <div class="flag__container">
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <nav class="header__nav">
+                    <a href="" class="header__link">Кому подойдёт</a>
+                    <a href="" class="header__link">Возможности</a>
+                    <a href="" class="header__link">Как подключить</a>
+                    <a href="" class="header__link">FAQ</a>
+                </nav>
+            </div>
+            <div class="header__wrapper">
+                <a href="#" class="header__connect">Подключить</a>
+                <a href="#" class="header__common">Войти</a>
+            </div>
+        </div>
+        </div> -->
+    </header>
+    <section class="section">
+        <div class="sidebar">
+            <nav class="sidebar__nav">
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/home.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Дашборд</div>
+                </a>
+                <a href="#" class="sidebar__block sidebar__block-active">
+                    <img src="./image/nav/dollar.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Балансы и вывод</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/history.svg" class="sidebar__svg">
+                    <div class="sidebar__text">История операций</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Статистика</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/referal.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Реферальная программа</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Настройки</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/help.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Помощь</div>
+                </a>
+            </nav>
+            <div class="login login--mobile">
+                <div class="login__status">
+                    <div class="login__status-item">Активный</div>
+                    <div class="questions">
+                        <div class="questions__svg questions-js"></div>
+                        <div class="questions__block">
+                            <div class="questions__block-text questions__block-text--green">
+                                <span>Успешно</span> - операция состоялась.
+                            </div>
+                            <div class="questions__block-text questions__block-text--red">
+                                <span>Отклонено</span> - операция не состоялась.
+                            </div>
+                            <div class="questions__block-text questions__block-text--yellow">
+                                <span>Хедж-фонд</span>- средства захеджированы.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login__name">Иван Константинополь...</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="dashboard">
+                    <div class="content__block">
+                        <div class="dashboard__canvas">
+                            <div class="dashboard__title">Общий баланс</div>
+                            <div class="dashboard__subtitle">Подробнее посмотреть структуру Баланса вы можете <a
+                                    href="#">здесь</a>.</div>
+                            <div class="dashboard__canvas-container">
+                                <div class="dashboard__canvas-block">
+                                    <div class="dashboard__canvas-wrapper">
+                                        <canvas id="myChart" width="209" height="209"></canvas>
+                                        <!-- <img class="dashboard__null" src="./image/dashboard__none.svg" alt="null"> -->
+                                        <div class="dashboard__total">
+                                            <div class="dashboard__total-money">32 094 $</div>
+                                            <div class="dashboard__total-text">Общий баланс</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="dashboard__canvas-btn">Перейти в статистику</a>
+                                </div>
+                                <div class="dashboard__bar">
+                                    <div class="dashboard__bar-container">
+                                        <div class="dashboard__bar-block">
+                                            <div class="dashboard__bar-item">
+                                                <img src="./image/coin/dollar.svg" class="dashboard__bar-svg">
+                                                <div class="dashboard__bar-name">BUSD</div>
+                                            </div>
+                                            <div class="dashboard__bar-wrapper">
+                                                <div id="color1" class="dashboard__bar-color"></div>
+                                            </div>
+                                            <div class="dashboard__bar-value"><span id="value1"></span>(1 000 000$)
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__bar-block">
+                                            <div class="dashboard__bar-item">
+                                                <img src="./image/coin/dollar.svg" class="dashboard__bar-svg">
+                                                <div class="dashboard__bar-name">BUSD</div>
+                                            </div>
+                                            <div class="dashboard__bar-wrapper">
+                                                <div id="color2" class="dashboard__bar-color"></div>
+                                            </div>
+                                            <div class="dashboard__bar-value"><span id="value2"></span>(1 000 000$)
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__bar-block">
+                                            <div class="dashboard__bar-item">
+                                                <img src="./image/coin/dollar.svg" class="dashboard__bar-svg">
+                                                <div class="dashboard__bar-name">HU</div>
+                                            </div>
+                                            <div class="dashboard__bar-wrapper">
+                                                <div id="color3" class="dashboard__bar-color"></div>
+                                            </div>
+                                            <div class="dashboard__bar-value"><span id="value3"></span>(1 000 000$)
+                                            </div>
+                                        </div>
+                                        <div class="dashboard__bar-block">
+                                            <div class="dashboard__bar-item">
+                                                <img src="./image/coin/dollar.svg" class="dashboard__bar-svg">
+                                                <div class="dashboard__bar-name">BUSD</div>
+                                            </div>
+                                            <div class="dashboard__bar-wrapper">
+                                                <div id="color4" class="dashboard__bar-color"></div>
+                                            </div>
+                                            <div class="dashboard__bar-value"><span id="value4"></span>(1 000 000$)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__block">
+                        <div class="dashboard__canvas">
+                            <div class="dashboard__title">Общий баланс</div>
+                            <div class="dashboard__subtitle">Подробнее посмотреть структуру Баланса вы можете <a
+                                    href="#">здесь</a>.</div>
+                            <div class="dashboard__canvas-container">
+                                <div class="dashboard__canvas-block">
+                                    <div class="dashboard__canvas-wrapper">
+                                        <!-- <canvas id="myChart" width="209" height="209"></canvas> -->
+                                        <img class="dashboard__null" src="./image/dashboard__none.svg" alt="null">
+                                        <div class="dashboard__total dashboard__total--left">
+                                            <div class="dashboard__total-money">0 $</div>
+                                            <div class="dashboard__total-text">Общий баланс</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="dashboard__canvas-btn">Перейти в статистику</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__block">
+                        <div class="dashboard__title">Статистика поступлений</div>
+                        <div class="dashboard__subtitle">Посмотреть полную историю операций вы можете <a
+                                href="#">здесь</a>.</div>
+                        <div class="timeTab">
+                            <div data-targetTime="mounth" class="timeTab__item active">За месяц</div>
+                            <div data-targetTime="all" class="timeTab__item">За все время</div>
+                        </div>
+                        <div data-time="mounth" class="time-js time-js--active time-js--opacity">
+                            <div class="statistic">
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="20"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/husd.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">USDT_OMNI </div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="20"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/husd.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">USDT_OMNI </div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="20"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/husd.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">USDT_OMNI </div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-time="all" class="time-js">
+                            <div class="statistic">
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="20"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                                <div class="statistic__block">
+                                    <div class="statistic__item">
+                                        <div class="statistic__bar" data-percent="0" data-sum="9 200"></div>
+                                    </div>
+                                    <div class="statistic__wrapper">
+                                        <img class="statistic__wrapper-img" src="./image/coin/dollar.svg" alt="coin">
+                                        <div class="statistic__wrapper-name">BUSD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__block">
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Условия работы
+                        </div>
+                        <a href="#" class="footer__link">Комиссии сети и сервиса</a>
+                        <a href="#" class="footer__link">Реферальная программа</a>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Контакты
+                        </div>
+                        <div class="footer__text">
+                            <span>Техподдержка</span>
+                            <a href="#" class="footer__link">support@cryptadium.com</a>
+                        </div>
+                        <div class="footer__text">
+                            <span>Сотрудничевство</span>
+                            <a href="#" class="footer__link">info@cryptadium.com</a>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Документы
+                        </div>
+                        <a href="#" class="footer__link">Privacy policy</a>
+                        <a href="#" class="footer__link">Terms of use</a>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            О нас
+                        </div>
+                        <a href="#" class="footer__link">Блог</a>
+                        <a href="#" class="footer__link">О сервисе</a>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Сообщество
+                        </div>
+                        <div class="footer__wrapper">
+                            <a href="#" class="footer__social">
+                                <img src="./image/icon/fb.svg" alt="fb" class="footer__social-svg"></a>
+                            <a href="#" class="footer__social">
+                                <img src="./image/icon/twitter.svg" alt="twitter" class="footer__social-svg"></a>
+                            <a href="#" class="footer__social">
+                                <img src="./image/icon/youtube.svg" alt="youtube" class="footer__social-svg"></a>
+                        </div>
+                        <div class="footer__copyright">©Criptadium 2021</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script src="./plugins/jquery-3.6.0.min.js"></script>
+    <script src="./plugins/Chart.min.js"></script>
+    <script src="./plugins/build/jquery.datetimepicker.full.js"></script>
+    <script src="./plugins/jquery.nice-select.min.js"></script>
+    <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

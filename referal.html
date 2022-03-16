@@ -1,0 +1,1667 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptadium</title>
+    <link rel="stylesheet" href="./css/Chart.min.css">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="./plugins/build/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <div class="login">
+                    <div class="login__status">
+                        <div class="login__status-item">Активный</div>
+                        <div class="questions">
+                            <div class="questions__svg questions-js"></div>
+                            <div class="questions__block">
+                                <div class="questions__block-text questions__block-text--green">
+                                    <span>Успешно</span> - операция состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--red">
+                                    <span>Отклонено</span> - операция не состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--yellow">
+                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login__name">Иван Константинополь...</div>
+                </div>
+                <div class="header__out"></div>
+            </div>
+            <div class="burger">
+                <div class="burger__icon"></div>
+            </div>
+        </div>
+        <div class="flag">
+            <div class="flag__close"></div>
+            <div class="flag__container">
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <nav class="header__nav">
+                    <a href="" class="header__link">Кому подойдёт</a>
+                    <a href="" class="header__link">Возможности</a>
+                    <a href="" class="header__link">Как подключить</a>
+                    <a href="" class="header__link">FAQ</a>
+                </nav>
+            </div>
+            <div class="header__wrapper">
+                <a href="#" class="header__connect">Подключить</a>
+                <a href="#" class="header__common">Войти</a>
+            </div>
+        </div>
+        </div> -->
+    </header>
+    <section class="section">
+        <div class="sidebar">
+            <nav class="sidebar__nav">
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/home.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Дашборд</div>
+                </a>
+                <a href="#" class="sidebar__block sidebar__block-active">
+                    <img src="./image/nav/dollar.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Балансы и вывод</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/history.svg" class="sidebar__svg">
+                    <div class="sidebar__text">История операций</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Статистика</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/referal.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Реферальная программа</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Настройки</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/help.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Помощь</div>
+                </a>
+            </nav>
+            <div class="login login--mobile">
+                <div class="login__status">
+                    <div class="login__status-item">Активный</div>
+                    <div class="questions">
+                        <div class="questions__svg questions-js"></div>
+                        <div class="questions__block">
+                            <div class="questions__block-text questions__block-text--green">
+                                <span>Успешно</span> - операция состоялась.
+                            </div>
+                            <div class="questions__block-text questions__block-text--red">
+                                <span>Отклонено</span> - операция не состоялась.
+                            </div>
+                            <div class="questions__block-text questions__block-text--yellow">
+                                <span>Хедж-фонд</span>- средства захеджированы.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login__name">Иван Константинополь...</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="content__tabs">
+                    <div data-targettab="1" class="content__tab ">Как это работает</div>
+                    <div data-targettab="2" class="content__tab ">Ваши рефералы</div>
+                    <div data-targettab="3" class="content__tab ">Общая история начислений</div>
+                    <div data-targettab="4" class="content__tab ">История начисления по рефералам</div>
+                    <div data-targettab="5" class="content__tab active">Реферальный баланс</div>
+                </div>
+                <div class="referal">
+                    <div data-tab="1" class=" content-js content-js--opacity content-js--active">
+                        <div class="content__block">
+                            <div class="referal__wrapper">
+                                <div class="referal__title referal__title--noMargin">Ваш реферальный баланс:</div>
+                                <div class="referal__wrapper-number">20 271 $</div>
+                                <a href="#" class="referal__more">Подробнее</a>
+                            </div>
+                            <div class="referal__status">
+                                <p>Ваш статус: <span>White</span></p>
+                                <div class="questions">
+                                    <div class="questions__svg questions-js"></div>
+                                    <div class="questions__block">
+                                        <div class="questions__block-text questions__block-text--green">
+                                            <span>Успешно</span> - операция состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--red">
+                                            <span>Отклонено</span> - операция не состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--yellow">
+                                            <span>Хедж-фонд</span>- средства захеджированы.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="referal__copylink">
+                                <div class="referal__copylink-block">
+                                    <div class="referal__copylink-text">Делитесь вашей реферальной ссылкой и получайте
+                                        вознаграждение</div>
+                                    <div class="referal__copylink-item">
+                                        <input id="copyInput" class="referal__copylink-input"
+                                            value="cryptadium.com/?uhf87okdjl20" disabled>
+                                        <button class="copyBtn">
+                                            <p>Скопировать</p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="referal__level">
+                                <div class="referal__level-block referal__level-block--column">
+                                    <div class="referal__level-title">
+                                        <p>Количество рефералов</p>
+                                    </div>
+                                    <div class="referal__level-title">
+                                        <p>Срок выплаты за рефералов</p>
+                                    </div>
+                                    <div class="referal__level-title">
+                                        <p>Количество уровней, за которых получает
+                                            вознаграждение</p>
+                                    </div>
+                                </div>
+                                <div class="referal__level-block">
+                                    <div class="referal__level-item">
+                                        <div class="referal__level-status referal__level-status--blue">White</div>
+                                        <div class="referal__level-text">до 5</div>
+                                        <div class="referal__level-text">3 года</div>
+                                        <div class="referal__level-text">3</div>
+                                    </div>
+                                    <div class="referal__level-item referal__level-item--active">
+                                        <div class="referal__level-status referal__level-status--gold">Gold</div>
+                                        <div class="referal__level-text">от 5 - 10</div>
+                                        <div class="referal__level-text">до 5</div>
+                                        <div class="referal__level-text">5</div>
+                                    </div>
+                                    <div class="referal__level-item">
+                                        <div class="referal__level-status">PLATINUM</div>
+                                        <div class="referal__level-text">более 10</div>
+                                        <div class="referal__level-text">пожизненно</div>
+                                        <div class="referal__level-text">7</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__block">
+                            <div class="referal__wrapper">
+                                <div class="referal__title referal__title--noMargin">Ваш реферальный баланс:</div>
+                                <div class="referal__wrapper-number">20 271 $</div>
+                                <a href="#" class="referal__more">Подробнее</a>
+                            </div>
+                            <div class="referal__status">
+                                <p>Ваш статус: <span>White</span></p>
+                                <div class="questions">
+                                    <div class="questions__svg questions-js"></div>
+                                    <div class="questions__block">
+                                        <div class="questions__block-text questions__block-text--green">
+                                            <span>Успешно</span> - операция состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--red">
+                                            <span>Отклонено</span> - операция не состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--yellow">
+                                            <span>Хедж-фонд</span>- средства захеджированы.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__block">
+                            <div class="referal__title">Многоуровневая система вознаграждений</div>
+                            <div class="referal__reward">
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">Уровень</div>
+                                    <div class="referal__reward-wrapper">%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">1</div>
+                                    <div class="referal__reward-wrapper">30%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">2</div>
+                                    <div class="referal__reward-wrapper">5%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">3</div>
+                                    <div class="referal__reward-wrapper">5%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">4</div>
+                                    <div class="referal__reward-wrapper">4%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">5</div>
+                                    <div class="referal__reward-wrapper">3%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">6</div>
+                                    <div class="referal__reward-wrapper">2%</div>
+                                </div>
+                                <div class="referal__reward-item">
+                                    <div class="referal__reward-wrapper">7</div>
+                                    <div class="referal__reward-wrapper">1%</div>
+                                </div>
+                            </div>
+                            <div class="content__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum."</div>
+                        </div>
+                        <div class="content__block">
+                            <div class="referal__title">Многоуровневая система вознаграждений</div>
+                            <div class="content__text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt mollit anim id est laborum."</div>
+                        </div>
+                        <div class="content__block">
+                            <div class="referal__wrapper">
+                                <div class="referal__title referal__title--noMargin">Ваш реферальный баланс:</div>
+                                <div class="referal__wrapper-number">20 271 $</div>
+                                <a href="#" class="referal__more">Подробнее</a>
+                            </div>
+                            <div class="referal__status">
+                                <p>Ваш статус: <span>White</span></p>
+                                <div class="questions">
+                                    <div class="questions__svg questions-js"></div>
+                                    <div class="questions__block">
+                                        <div class="questions__block-text questions__block-text--green">
+                                            <span>Успешно</span> - операция состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--red">
+                                            <span>Отклонено</span> - операция не состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--yellow">
+                                            <span>Хедж-фонд</span>- средства захеджированы.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content__null">
+                                <div class="content__null-text">На данный момент, у вас нет ни одного реферала.
+                                </div>
+                                <img class="content__null-img" src="./image/no-content.png" alt="no-content">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tab="2" class=" content-js ">
+                        <div class="content__block">
+                            <div class="referal__wrapper">
+                                <div class="referal__title referal__title--noMargin">Ваш реферальный баланс:</div>
+                                <div class="referal__wrapper-number">20 271 $</div>
+                                <a href="#" class="referal__more">Подробнее</a>
+                            </div>
+                            <div class="referal__status">
+                                <p>Ваш статус: <span>White</span></p>
+                                <div class="questions">
+                                    <div class="questions__svg questions-js"></div>
+                                    <div class="questions__block">
+                                        <div class="questions__block-text questions__block-text--green">
+                                            <span>Успешно</span> - операция состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--red">
+                                            <span>Отклонено</span> - операция не состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--yellow">
+                                            <span>Хедж-фонд</span>- средства захеджированы.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="referal__table">
+                                <div class="referal__table-thead">
+                                    <div class="referal__table-title referal__table-title--maxWidth">
+                                        <p>Ваш реферал</p>
+                                    </div>
+                                    <div
+                                        class="referal__table-title referal__table-title--maxWidth referal__table-title--none">
+                                        <p>Статус реферала</p>
+                                        <div class="questions">
+                                            <div class="questions__svg questions-js"></div>
+                                            <div class="questions__block">
+                                                <div class="questions__block-text questions__block-text--green">
+                                                    <span>Успешно</span> - операция состоялась.
+                                                </div>
+                                                <div class="questions__block-text questions__block-text--red">
+                                                    <span>Отклонено</span> - операция не состоялась.
+                                                </div>
+                                                <div class="questions__block-text questions__block-text--yellow">
+                                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-title referal__table-title--maxWidth">
+                                        <p>Дата регистрации</p>
+                                    </div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com</div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td referal__table-td--reverse">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status referal__table-status--active">Активный
+                                    </div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status referal__table-status--inactive">Потерял
+                                        активность
+                                    </div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                                <div class="referal__table-td">
+                                    <div class="referal__table-mail referal__table-mail--maxWidth">
+                                        dlinniy_email_strochka@mail.com </div>
+                                    <div class="referal__table-status">Зарегистрирован</div>
+                                    <div class="referal__table-data">18.04.2021 13:00</div>
+                                </div>
+                            </div>
+                            <div class="paging">
+                                <div class="paging__wrapper">
+                                    <img class="paging__svg" src="./image/icon/double-left.svg" alt="left">
+                                    <img class="paging__svg" src="./image/icon/left.svg" alt="left">
+                                </div>
+                                <div class="paging__block">
+                                    <div class="paging__item paging__item--active">1</div>
+                                    <div class="paging__item">2</div>
+                                    <div class="paging__item">3</div>
+                                    <div class="paging__dot">...</div>
+                                    <div class="paging__item">14</div>
+                                    <div class="paging__item">15</div>
+                                    <div class="paging__item">16</div>
+                                </div>
+                                <div class="paging__wrapper">
+                                    <img class="paging__svg" src="./image/icon/right.svg" alt="right">
+                                    <img class="paging__svg" src="./image/icon/double-right.svg" alt="right">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__block">
+                            <div class="referal__wrapper">
+                                <div class="referal__title referal__title--noMargin">Ваш реферальный баланс:</div>
+                                <div class="referal__wrapper-number">20 271 $</div>
+                                <a href="#" class="referal__more">Подробнее</a>
+                            </div>
+                            <div class="referal__status">
+                                <p>Ваш статус: <span>White</span></p>
+                                <div class="questions">
+                                    <div class="questions__svg questions-js"></div>
+                                    <div class="questions__block">
+                                        <div class="questions__block-text questions__block-text--green">
+                                            <span>Успешно</span> - операция состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--red">
+                                            <span>Отклонено</span> - операция не состоялась.
+                                        </div>
+                                        <div class="questions__block-text questions__block-text--yellow">
+                                            <span>Хедж-фонд</span>- средства захеджированы.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content__null">
+                                <div class="content__null-text">На данный момент, у вас нет ни одного реферала.
+                                </div>
+                                <img class="content__null-img" src="./image/no-content.png" alt="no-content">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tab="3" class=" content-js ">
+                        <div class="content__block">
+                            <div class="timeTab">
+                                <div data-targetTime="mounth" class="timeTab__item active">За месяц</div>
+                                <div data-targetTime="all" class="timeTab__item">За все время</div>
+                            </div>
+                            <div data-time="mounth" class=" time-js time-js--active time-js--opacity ">
+                                <div class="referal__table">
+                                    <div class="referal__table-thead">
+                                        <div class="referal__table-title">
+                                            <p>Дата <span>начисления</span></p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма <span>криптовалюты</span></p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент USD</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-time="all" class=" time-js">
+                                <div class="referal__table">
+                                    <div class="referal__table-thead">
+                                        <div class="referal__table-title">
+                                            <p>Дата начисления</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма криптовалюты</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент USD</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail">21.09.2021</div>
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tab="4" class=" content-js ">
+                        <div class="content__block">
+                            <div class="timeTab">
+                                <div data-targetTime="mounth1" class="timeTab__item active">За месяц</div>
+                                <div data-targetTime="all1" class="timeTab__item">За все время</div>
+                            </div>
+                            <div data-time="mounth1" class=" time-js time-js--active time-js--opacity ">
+                                <div class="referal__table">
+                                    <div class="referal__table-thead referal__table-thead--none">
+                                        <div class="referal__table-title">
+                                            <p>Дата начисления</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Реферальный магазин</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма криптовалюты</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент USD</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-thead referal__table-thead--mobile">
+                                        <div class="referal__table-title">
+                                            <p>Дата </p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма </p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-time="all1" class=" time-js ">
+                                <div class="referal__table">
+                                    <div class="referal__table-thead referal__table-thead--none">
+                                        <div class="referal__table-title">
+                                            <p>Дата начисления</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Реферальный магазин</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма криптовалюты</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент USD</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-thead referal__table-thead--mobile">
+                                        <div class="referal__table-title">
+                                            <p>Дата </p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма </p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__table-mail referal__table-mail--noWidth">21.09.2021</div>
+                                        <div class="referal__table-text">Длинное название магазина 1</div>
+                                        <div class="referal__coin referal__coin--noWidth">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                            <div class="referal__coin-number">
+                                                123.56005795
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tab="5" class=" content-js ">
+                        <div class="content__container">
+                            <div class="content__block content__block--bigWidth">
+                                <div class="referal__wrapper">
+                                    <div class="referal__title referal__title--noMargin">Ваш реферальный баланс:</div>
+                                    <div class="referal__wrapper-number">20 271 $</div>
+                                    <div class="questions">
+                                        <div class="questions__svg questions-js"></div>
+                                        <div class="questions__block">
+                                            <div class="questions__block-text questions__block-text--green">
+                                                <span>Успешно</span> - операция состоялась.
+                                            </div>
+                                            <div class="questions__block-text questions__block-text--red">
+                                                <span>Отклонено</span> - операция не состоялась.
+                                            </div>
+                                            <div class="questions__block-text questions__block-text--yellow">
+                                                <span>Хедж-фонд</span>- средства захеджированы.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__sum">
+                                        <img src="./image/icon/up.svg" class="referal__sum-img referal__sum-img--up">
+                                        <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                    </div>
+                                </div>
+                                <div class="referal__status">
+                                    <p>Доступно в выводу:</p>
+                                </div>
+                                <div class="referal__table">
+                                    <div class="referal__table-thead">
+                                        <div class="referal__table-title">
+                                            <p>Валюта</p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Сумма <span>криптовалюты</span></p>
+                                        </div>
+                                        <div class="referal__table-title">
+                                            <p>Эквивалент USD</p>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/btc.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/husd.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/tusd.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/usdc.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/btc.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/husd.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/tusd.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/usdc.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/btc.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/husd.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/tusd.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/usdc.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="referal__table-td">
+                                        <div class="referal__coin">
+                                            <div class="referal__coin-block">
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="referal__coin-name">BTC</div>
+                                            </div>
+                                        </div>
+                                        <div class="referal__table-text">123.56005795</div>
+                                        <div class="referal__table-data">2 000 000 $</div>
+                                        <div class="referal__sum">
+                                            <img src="./image/icon/up.svg"
+                                                class="referal__sum-img referal__sum-img--up">
+                                            <div class="referal__sum-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content__block content__block--minWidth">
+                                <div class="referal__form">
+                                    <div class="referal__form-title">Выберите валюту для вывода средств</div>
+                                    <select name="currency" class="select content__select" required>
+                                        <option data-image="./image/coin/dollar.svg" value="Валюта 1" selected>
+                                            BTC2
+                                        </option>
+                                        <option data-image="./image/coin/btc.svg" value="Валюта 1">BTC2</option>
+                                        <option data-image="./image/coin/husd.svg" value="Валюта 2">BTC2</option>
+                                        <option data-image="./image/coin/dollar.svg" value="Валюта 3">BTC2</option>
+                                    </select>
+                                    <div class="referal__form-money">Доступно: 3376.00 BTC ≈ 2 000 000$</div>
+                                    <div class="referal__form-title">Выберите валюту для вывода средств</div>
+                                    <select name="currenc"
+                                        class="select content__select content__select--blueColor content__select--marginBottom"
+                                        required>
+                                        <option value="Валюта 1" selected>
+                                            1GZ................YquF4zv97F
+                                        </option>
+                                        <option value="Валюта 1">1GZ................YquF4zv97F</option>
+                                        <option value="Валюта 2">1GZ................YquF4zv97F</option>
+                                        <option value="Валюта 3">1GZ................YquF4zv97F</option>
+                                    </select>
+                                    <div class="referal__form-title">Выберите валюту для вывода средств</div>
+                                    <input class="content__input" type="text" value="0">
+                                    <div class="referal__form-money">Доступно: 3376.00 BTC ≈ 2 000 000$</div>
+                                    <div class="referal__form-title">Вы получите:</div>
+                                    <div class="referal__form-total">45,91 BTC ( ~2578.00 $) </div>
+                                    <div class="referal__form-money">Комиссия сети блокчейна 3 BTC (78.10$)
+                                        <div class="questions">
+                                            <div class="questions__svg questions-js"></div>
+                                            <div class="questions__block">
+                                                <div class="questions__block-text questions__block-text--green">
+                                                    <span>Успешно</span> - операция состоялась.
+                                                </div>
+                                                <div class="questions__block-text questions__block-text--red">
+                                                    <span>Отклонено</span> - операция не состоялась.
+                                                </div>
+                                                <div class="questions__block-text questions__block-text--yellow">
+                                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modalBox  modalBox--background">
+                                        <div class="modalBox__title modalBox__title">Заявка на вывод средств
+                                            принята!</div>
+                                        <div class="modalBox__closeIcon"></div>
+                                    </div>
+
+                                    <button class="referal__form-btn">Вывести</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer__block">
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Условия работы
+                        </div>
+                        <a href="#" class="footer__link">Комиссии сети и сервиса</a>
+                        <a href="#" class="footer__link">Реферальная программа</a>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Контакты
+                        </div>
+                        <div class="footer__text">
+                            <span>Техподдержка</span>
+                            <a href="#" class="footer__link">support@cryptadium.com</a>
+                        </div>
+                        <div class="footer__text">
+                            <span>Сотрудничевство</span>
+                            <a href="#" class="footer__link">info@cryptadium.com</a>
+                        </div>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Документы
+                        </div>
+                        <a href="#" class="footer__link">Privacy policy</a>
+                        <a href="#" class="footer__link">Terms of use</a>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            О нас
+                        </div>
+                        <a href="#" class="footer__link">Блог</a>
+                        <a href="#" class="footer__link">О сервисе</a>
+                    </div>
+
+                    <div class="footer__item">
+                        <div class="footer__title">
+                            Сообщество
+                        </div>
+                        <div class="footer__wrapper">
+                            <a href="#" class="footer__social">
+                                <img src="./image/icon/fb.svg" alt="fb" class="footer__social-svg"></a>
+                            <a href="#" class="footer__social">
+                                <img src="./image/icon/twitter.svg" alt="twitter" class="footer__social-svg"></a>
+                            <a href="#" class="footer__social">
+                                <img src="./image/icon/youtube.svg" alt="youtube" class="footer__social-svg"></a>
+                        </div>
+                        <div class="footer__copyright">©Criptadium 2021</div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <script src="./plugins/jquery-3.6.0.min.js"></script>
+    <script src="./plugins/Chart.min.js"></script>
+    <script src="./plugins/build/jquery.datetimepicker.full.js"></script>
+    <script src="./plugins/jquery.nice-select.min.js"></script>
+    <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

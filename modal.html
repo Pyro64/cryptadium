@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptadium</title>
+    <link rel="stylesheet" href="./css/Chart.min.css">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="./plugins/build/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="backgroundModal">
+        <header class="headerModal">
+            <img src="./image/logo.svg" class="headerModal__logo">
+        </header>
+        <section class="modal">
+            <div class="modal__title">Регистрация</div>
+            <div class="modal__tabs">
+                <div data-targettab="1" class="modal__tabs-item active modal__tabs-item--left ">Юридическое лицо</div>
+                <div data-targettab="2" class="modal__tabs-item ">Физическое лицо</div>
+            </div>
+            <form data-tab="1" class="modal__form content-js content-js--opacity content-js--active ">
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Название компании</div>
+                    <input placeholder="Введите название" type="text" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Ваше имя</div>
+                    <input type="text" placeholder="Введите имя" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Ваша фамилия</div>
+                    <input type="text" placeholder="Введите фамилию" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">E-mail</div>
+                    <input type="text" placeholder="Введите E-mail" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Введите пароль</div>
+                    <div class="modal__input">
+                        <input type="text" class="modal__input-item">
+                        <div class="modal__input-icon"></div>
+                    </div>
+                    <div class="modal__form-text">Пароль должен быть латинскими буквами, минимум 6 символов с
+                        использованием спецсимволов *%.</div>
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Введите пароль</div>
+                    <div class="modal__input">
+                        <input type="text" class="modal__input-item">
+                        <div class="modal__input-icon"></div>
+                    </div>
+                </div>
+                <div class="modal__checkbox">
+                    <input type="checkbox" class="modal__checkbox-item">
+                    <div class="modal__checkbox-text">Заполняя данную форму, я даю согласие на обработку
+                        <span>персональных данных</span>
+                    </div>
+                </div>
+                <button class="modal__button">Зарегистрироваться</button>
+            </form>
+            <form data-tab="2" class="modal__form content-js">
+
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Ваше имя</div>
+                    <input type="text" placeholder="Введите имя" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Ваша фамилия</div>
+                    <input type="text" placeholder="Введите фамилию" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">E-mail</div>
+                    <input type="text" placeholder="Введите E-mail" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Введите пароль</div>
+                    <div class="modal__input">
+                        <input type="text" class="modal__input-item">
+                        <div class="modal__input-icon"></div>
+                    </div>
+                    <div class="modal__form-text">Пароль должен быть латинскими буквами, минимум 6 символов с
+                        использованием спецсимволов *%.</div>
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Введите пароль</div>
+                    <div class="modal__input">
+                        <input type="text" class="modal__input-item">
+                        <div class="modal__input-icon"></div>
+                    </div>
+                </div>
+                <div class="modal__checkbox">
+                    <input type="checkbox" class="modal__checkbox-item">
+                    <div class="modal__checkbox-text">Заполняя данную форму, я даю согласие на обработку
+                        <span>персональных данных</span>
+                    </div>
+                </div>
+                <button class="modal__button">Зарегистрироваться</button>
+            </form>
+            <div class="modal__text">У вас уже есть аккаунт?</div>
+            <a href="#" class="modal__href">Войти</a>
+        </section>
+
+    </div>
+    <div class="backgroundModal">
+        <header class="headerModal">
+            <img src="./image/logo.svg" class="headerModal__logo">
+        </header>
+        <section class="modal">
+            <div class="modal__title">Авторизация</div>
+            <form class="modal__form">
+                <div class="modal__form-item">
+                    <div class="modal__form-title">E-mail</div>
+                    <input type="text" placeholder="Введите E-mail" class="modal__form-input">
+                </div>
+                <div class="modal__form-item">
+                    <div class="modal__form-title">Введите пароль</div>
+                    <div class="modal__input">
+                        <input type="text" class="modal__input-item">
+                        <div class="modal__input-icon"></div>
+                    </div>
+                </div>
+                <button class="modal__button modal__button--margin">Войти</button>
+            </form>
+            <div class="modal__text">У вас еще нет аккаунта?</div>
+            <a href="#" class="modal__href">Зарегистрироваться</a>
+            <a href="#" class="modal__password">Забыли пароль?</a>
+        </section>
+
+    </div>
+    <div class="backgroundModal">
+
+        <header class="headerModal">
+            <img src="./image/logo.svg" class="headerModal__logo">
+        </header>
+        <section class="modal">
+            <div class="modal__title modal__title--margin">Восстановление пароля</div>
+            <div class="modal__textItem">Введите вашу почту, указанную при регистрации.
+                Мы отправим на нее ссылку для восстановления пароля</div>
+            <form class="modal__form">
+                <div class="modal__form-item">
+                    <div class="modal__form-title">E-mail</div>
+                    <input type="text" placeholder="Введите E-mail" class="modal__form-input">
+                </div>
+                <button class="modal__button ">Восстановить пароль</button>
+            </form>
+            <a href="#" class="modal__href">Войти</a>
+        </section>
+        <div class="backgroundMen"></div>
+    </div>
+
+
+   
+
+
+    <script src="./plugins/jquery-3.6.0.min.js"></script>
+    <script src="./plugins/Chart.min.js"></script>
+    <script src="./plugins/build/jquery.datetimepicker.full.js"></script>
+    <script src="./plugins/jquery.nice-select.min.js"></script>
+    <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

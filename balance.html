@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptadium</title>
+    <link rel="stylesheet" href="./css/Chart.min.css">
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="./plugins/build/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <div class="login">
+                    <div class="login__status">
+                        <div class="login__status-item">Активный</div>
+                        <div class="questions">
+                            <div class="questions__svg questions-js"></div>
+                            <div class="questions__block">
+                                <div class="questions__block-text questions__block-text--green">
+                                    <span>Успешно</span> - операция состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--red">
+                                    <span>Отклонено</span> - операция не состоялась.
+                                </div>
+                                <div class="questions__block-text questions__block-text--yellow">
+                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login__name">Иван Константинополь...</div>
+                </div>
+                <div class="header__out"></div>
+            </div>
+            <div class="burger">
+                <div class="burger__icon"></div>
+            </div>
+        </div>
+        <div class="flag">
+            <div class="flag__close"></div>
+            <div class="flag__container">
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+                <div class="flag__block">
+                    <img src="./image/flag/british.svg" alt="" class="flag__img">
+                    <div class="flag__name">English</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header__container">
+            <div class="header__wrapper">
+                <div class="header__flag">
+                    <img class="header__flag-svg" src="./image/flag/eng.svg" alt="flag">
+                </div>
+                <div class="header__logo"></div>
+            </div>
+            <div class="header__wrapper">
+                <nav class="header__nav">
+                    <a href="" class="header__link">Кому подойдёт</a>
+                    <a href="" class="header__link">Возможности</a>
+                    <a href="" class="header__link">Как подключить</a>
+                    <a href="" class="header__link">FAQ</a>
+                </nav>
+            </div>
+            <div class="header__wrapper">
+                <a href="#" class="header__connect">Подключить</a>
+                <a href="#" class="header__common">Войти</a>
+            </div>
+        </div>
+        </div> -->
+    </header>
+    <section class="section">
+        <div class="sidebar">
+            <nav class="sidebar__nav">
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/home.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Дашборд</div>
+                </a>
+                <a href="#" class="sidebar__block sidebar__block-active">
+                    <img src="./image/nav/dollar.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Балансы и вывод</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/history.svg" class="sidebar__svg">
+                    <div class="sidebar__text">История операций</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Статистика</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/referal.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Реферальная программа</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/setting.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Настройки</div>
+                </a>
+                <a href="#" class="sidebar__block">
+                    <img src="./image/nav/help.svg" class="sidebar__svg">
+                    <div class="sidebar__text">Помощь</div>
+                </a>
+            </nav>
+            <div class="login login--mobile">
+                <div class="login__status">
+                    <div class="login__status-item">Активный</div>
+                    <div class="questions">
+                        <div class="questions__svg questions-js"></div>
+                        <div class="questions__block">
+                            <div class="questions__block-text questions__block-text--green">
+                                <span>Успешно</span> - операция состоялась.
+                            </div>
+                            <div class="questions__block-text questions__block-text--red">
+                                <span>Отклонено</span> - операция не состоялась.
+                            </div>
+                            <div class="questions__block-text questions__block-text--yellow">
+                                <span>Хедж-фонд</span>- средства захеджированы.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login__name">Иван Константинополь...</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="content__tabs">
+                    <div data-targettab="1" class="content__tab active">Общий баланс</div>
+                    <div data-targettab="2" class="content__tab">Продажа</div>
+                    <div data-targettab="3" class="content__tab">Вывод средств</div>
+                </div>
+                <div class="referal">
+                    <div data-tab="1" class=" content-js content-js--opacity content-js--active">
+                        <div class="content__block">
+                            <div class="referal__title ">Общий баланс</div>
+                            <div class="autentifocathion__text">Вы можете подключить хеджирование валют в <a
+                                    href="#">настройках</a>.</div>
+                            <div class="balance">
+                                <div class="balance__block">
+                                    <div class="balance__item">
+                                        <div class="balance__text-number">20 271 $</div>
+                                        <div class="balance__text-item">
+                                            <div class="balance__text-icon balance__text-icon--green"></div>
+                                            <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                        </div>
+                                    </div>
+                                    <div class="balance__table">
+                                        <div class="balance__table-title">Валюта (Stable)</div>
+                                        <div class="balance__table-th">
+                                            <div class="balance__table-td balance__table-td--valute">Валюта</div>
+                                            <div class="balance__table-td">Сумма</div>
+                                            <div class="balance__table-td">Эквивалент USD</div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class="balance__tbody-clock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class=" balance__tbody-clock--noClock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class="balance__tbody-clock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class="balance__tbody-clock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class="balance__tbody-clock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class="balance__tbody-clock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="balance__tbody">
+                                            <div class="balance__tbody-item balance__tbody-item--valute">
+                                                <div class="balance__tbody-clock"></div>
+                                                <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                                <div class="balance__tbody-text">BTC</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__tbody-text">123.56005795</div>
+                                            </div>
+                                            <div class="balance__tbody-item">
+                                                <div class="balance__text-item">
+                                                    <div class="balance__tbody-text">2 000 000 $</div>
+                                                    <div class="balance__text-icon balance__text-icon--green"></div>
+                                                    <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="balance__block">
+                                    <div class="timeTab timeTab--align">
+                                        <div data-targetTime="mounth" class="timeTab__item active">За месяц</div>
+                                        <div data-targetTime="all" class="timeTab__item">За все время</div>
+                                    </div>
+                                    <div data-time="mounth" class=" time-js time-js--active time-js--opacity ">
+                                        <div class="balance__table">
+                                            <div class="balance__table-title">Валюта (Stable)</div>
+                                            <div class="balance__table-th">
+                                                <div class="balance__table-td balance__table-td--valute">Валюта</div>
+                                                <div class="balance__table-td">Сумма</div>
+                                                <div class="balance__table-td">Эквивалент USD</div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class=" balance__tbody-clock--noClock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div data-time="all" class=" time-js">
+                                        <div class="balance__table">
+                                            <div class="balance__table-title">Валюта (Stable)</div>
+                                            <div class="balance__table-th">
+                                                <div class="balance__table-td balance__table-td--valute">Валюта</div>
+                                                <div class="balance__table-td">Сумма</div>
+                                                <div class="balance__table-td">Эквивалент USD</div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class=" balance__tbody-clock--noClock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="balance__tbody">
+                                                <div class="balance__tbody-item balance__tbody-item--valute">
+                                                    <div class="balance__tbody-clock"></div>
+                                                    <img class="referal__coin-svg" src="./image/coin/dollar.svg"
+                                                        alt="coin">
+                                                    <div class="balance__tbody-text">BTC</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__tbody-text">123.56005795</div>
+                                                </div>
+                                                <div class="balance__tbody-item">
+                                                    <div class="balance__text-item">
+                                                        <div class="balance__tbody-text">2 000 000 $</div>
+                                                        <div class="balance__text-icon balance__text-icon--green"></div>
+                                                        <div class="balance__text-text">0.43 $ (0.97%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-tab="2" class=" content-js">
+                        <div class="content__container">
+                            <div class="content__block content__block--bigWidth">
+                                <div class="referal__title">Продажа</div>
+                                <div class="dashboard__subtitle">Вы можете продать криптовалюту с текущих балансов
+                                    магазина. Для этого укажите количество криптовалюты, цену по которой вы готовы
+                                    продать. Важно! Транзакции на бирже могут занимать до нескольких часов.</div>
+                                <div class="referal__form">
+                                    <div class="referal__form-container">
+                                        <div class="referal__form-title referal__form-title--nomargins">Выберите валюту
+                                            для вывода средств</div>
+                                        <div class="referal__form-status">Текущий курс на бирже: 46 000 USDT</div>
+                                    </div>
+
+                                    <select name="currency" class="select content__select" required>
+                                        <option data-image="./image/coin/dollar.svg" value="Валюта 1" selected>
+                                            BTC2
+                                        </option>
+                                        <option data-image="./image/coin/btc.svg" value="Валюта 1">BTC2</option>
+                                        <option data-image="./image/coin/husd.svg" value="Валюта 2">BTC2</option>
+                                        <option data-image="./image/coin/dollar.svg" value="Валюта 3">BTC2</option>
+                                    </select>
+                                    <div class="referal__form-money">Доступно: 3376.00 BTC ≈ 2 000 000$</div>
+                                    <div class="referal__form-title">Выберите валюту покупки</div>
+                                    <select name="currenc"
+                                        class="select content__select content__select--blueColor content__select--marginBottom"
+                                        required>
+                                        <option value="Валюта 1" selected>
+                                            1GZ................YquF4zv97F
+                                        </option>
+
+                                    </select>
+                                    <div class="referal__form-title">Цена продажи за 1 BTC</div>
+                                    <input class="content__input content__input--margin" type="text" value="0">
+                                    <div class="referal__form-title">Количество</div>
+                                    <input class="content__input content__input--margin" type="text" value="0">
+                                    <div class="referal__form-title">Выберите протокол</div>
+                                    <input class="content__input content__input--margin" type="text" value="0">
+                                    <div class="referal__form-title">Укажите адрес криптовалютного кошелька, куда
+                                        необходимо перевести деньги после продажи</div>
+                                    <input class="content__input content__input" type="text" value="0">
+                                    <div class="referal__form-money">Комиссия сети блокчейна 3 BTC (78.10$)
+                                        <div class="questions">
+                                            <div class="questions__svg questions-js"></div>
+                                            <div class="questions__block">
+                                                <div class="questions__block-text questions__block-text--green">
+                                                    <span>Успешно</span> - операция состоялась.
+                                                </div>
+                                                <div class="questions__block-text questions__block-text--red">
+                                                    <span>Отклонено</span> - операция не состоялась.
+                                                </div>
+                                                <div class="questions__block-text questions__block-text--yellow">
+                                                    <span>Хедж-фонд</span>- средства захеджированы.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <button class="referal__form-btn referal__form-btn--page">Создать заявку</button>
+                                </div>
+                            </div>
+                            <div class="content__block  content__block--minWidth content__block--none">
+                                <div class="application">
+                                    <div class="application__title">
+                                        <div class="application__title-item">
+                                            <div class="application__title-text">Мои заявки</div>
+                                            <div class="questions">
+                                                <div class="questions__svg questions-js"></div>
+                                                <div class="questions__block">
+                                                    <div class="questions__block-text questions__block-text--green">
+                                                        TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="application__title-item">
+                                            <div class="application__title-icon"></div>
+                                            <div class="application__title-icon application__title-icon--down"></div>
+                                        </div>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                    <div class="application__item">
+                                        <div class="application__item-line application__item-line--noSpace">
+                                            <img class="referal__coin-svg" src="./image/coin/dollar.svg" alt="coin">
+                                            <div class="balance__tbody-text">BTC</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Продажа по цене не ниже:</div>
+                                            <div class="application__item-text application__item-text--color">46 175
+                                                USDT</div>
+                                        </div>
+                                        <div class="application__item-line">
+                                            <div class="application__item-text">Количество</div>
+                                            <div class="application__item-text application__item-text--color">2</div>
+                                        </div>
+
+                                        <button class="application__btn">Отменить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div data-tab="3" class=" content-js">
+                        <div class="content__block">
+                            <div class="referal__form referal__form--minWidth">
+                                <div class="control__title">Вывод средств</div>
+                                <div class="referal__form-title referal__form-title--newTitle">Выберите валюту</div>
+                                <select name="currency" class="select content__select" required>
+                                    <option data-image="./image/coin/dollar.svg" value="Валюта 1" selected>
+                                        BTC2
+                                    </option>
+                                    <option data-image="./image/coin/btc.svg" value="Валюта 1">BTC2</option>
+                                    <option data-image="./image/coin/husd.svg" value="Валюта 2">BTC2</option>
+                                    <option data-image="./image/coin/dollar.svg" value="Валюта 3">BTC2</option>
+                                </select>
+                                <div class="referal__form-money">Доступно: 3376.00 BTC ≈ 2 000 000$</div>
+                                <div class="referal__form-title referal__form-title--newTitle">Укажите кошелек для
+                                    вывода</div>
+                                <select name="currenc"
+                                    class="select content__select content__select--blueColor content__select--marginBottom"
+                                    required>
+                                    <option value="Валюта 1" selected>
+                                        1GZ................YquF4zv97F
+                                    </option>
+                                    <option value="Валюта 1">1GZ................YquF4zv97F</option>
+                                    <option value="Валюта 2">1GZ................YquF4zv97F</option>
+                                    <option value="Валюта 3">1GZ................YquF4zv97F</option>
+                                </select>
+                                <div class="referal__form-title referal__form-title--newTitle">Сумма перевода</div>
+                                <input class="content__input" type="text" value="0">
+                                <div class="referal__form-money">Комиссия сети блокчейна 3 BTC (78.10$)
+                                    <div class="questions">
+                                        <div class="questions__svg questions-js"></div>
+                                        <div class="questions__block">
+                                            <div class="questions__block-text questions__block-text--green">
+                                                <span>Успешно</span> - операция состоялась.
+                                            </div>
+                                            <div class="questions__block-text questions__block-text--red">
+                                                <span>Отклонено</span> - операция не состоялась.
+                                            </div>
+                                            <div class="questions__block-text questions__block-text--yellow">
+                                                <span>Хедж-фонд</span>- средства захеджированы.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="referal__form-title">Вы получите:</div>
+                                <div class="referal__form-total">45,91 BTC ( ~2578.00 $) </div>
+
+                                <button class="referal__form-btn referal__form-btn--page">Вывести</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <footer class="footer">
+                    <div class="footer__block">
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Условия работы
+                            </div>
+                            <a href="#" class="footer__link">Комиссии сети и сервиса</a>
+                            <a href="#" class="footer__link">Реферальная программа</a>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Контакты
+                            </div>
+                            <div class="footer__text">
+                                <span>Техподдержка</span>
+                                <a href="#" class="footer__link">support@cryptadium.com</a>
+                            </div>
+                            <div class="footer__text">
+                                <span>Сотрудничевство</span>
+                                <a href="#" class="footer__link">info@cryptadium.com</a>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Документы
+                            </div>
+                            <a href="#" class="footer__link">Privacy policy</a>
+                            <a href="#" class="footer__link">Terms of use</a>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                О нас
+                            </div>
+                            <a href="#" class="footer__link">Блог</a>
+                            <a href="#" class="footer__link">О сервисе</a>
+                        </div>
+                        <div class="footer__item">
+                            <div class="footer__title">
+                                Сообщество
+                            </div>
+                            <div class="footer__wrapper">
+                                <a href="#" class="footer__social">
+                                    <img src="./image/icon/fb.svg" alt="fb" class="footer__social-svg"></a>
+                                <a href="#" class="footer__social">
+                                    <img src="./image/icon/twitter.svg" alt="twitter" class="footer__social-svg"></a>
+                                <a href="#" class="footer__social">
+                                    <img src="./image/icon/youtube.svg" alt="youtube" class="footer__social-svg"></a>
+                            </div>
+                            <div class="footer__copyright">©Criptadium 2021</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+    </section>
+    <script src="./plugins/jquery-3.6.0.min.js"></script>
+    <script src="./plugins/build/jquery.datetimepicker.full.js"></script>
+    <script src="./plugins/jquery.nice-select.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
