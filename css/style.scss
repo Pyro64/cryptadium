@@ -1022,6 +1022,9 @@ textarea:focus::-webkit-input-placeholder {
                 justify-content: flex-end;
                 color: #8697c9;
             }
+            &--autoWidth {
+                width: auto;
+            }
             &--date {
                 justify-content: flex-end;
             }
@@ -1032,9 +1035,9 @@ textarea:focus::-webkit-input-placeholder {
                     margin-right: 10%;
                 }
             }
-            &:last-child {
-                flex-grow: 1;
-            }
+            // &:last-child {
+            //     flex-grow: 1;
+            // }
             &--Width {
                 width: 33%;
             }
@@ -1069,6 +1072,9 @@ textarea:focus::-webkit-input-placeholder {
         }
         &--margin {
             margin-right: 10%;
+        }
+        &--spaceBetween {
+            justify-content: space-between;
         }
     }
     &__item {
