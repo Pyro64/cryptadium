@@ -1060,6 +1060,7 @@ textarea:focus::-webkit-input-placeholder {
         width: 20%;
         // margin-right: 5%;
         &-sum {
+            min-width: 30%;
             margin-right: 25%;
         }
         &-wrapper {
