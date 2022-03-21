@@ -28,6 +28,42 @@ body {
 a {
     text-decoration: none;
 }
+.preloader {
+    background-image: url('../img/picture/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before {
+        content: ' ';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        backdrop-filter: blur(20px);
+    }
+    &__image {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../image/logo.svg');
+        width: 140px;
+        height: 35px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
 .payform {
     max-width: 680px;
     margin: 0 auto;
@@ -168,6 +204,7 @@ a {
             margin-right: 13px;
             &:last-child {
                 margin-right: 0;
+                word-break: break-all;
             }
         }
         &-copy {

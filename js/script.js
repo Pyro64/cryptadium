@@ -1,3 +1,9 @@
+$(window).on('load', function () {
+    $preloader = $('.preloader'),
+        $loader = $preloader.find('.preloader__image');
+    $loader.delay(200).fadeOut();
+    $preloader.delay(200).fadeOut('slow');
+});
 $(document).ready(function () {
 
     const targetTab = document.querySelectorAll('[data-targetTab]'),
