@@ -965,6 +965,9 @@ textarea:focus::-webkit-input-placeholder {
             &--newsum {
                 width: 15%;
             }
+            &--paddingLeft {
+                padding-left: 5%;
+            }
             &--code {
                 width: 24%;
                 justify-content: flex-end;
