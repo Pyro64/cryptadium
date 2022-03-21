@@ -835,6 +835,7 @@ textarea:focus::-webkit-input-placeholder {
     &__wrapper {
         display: flex;
         align-items: center;
+        flex-grow: 1;
     }
     &__params {
         display: flex;
@@ -967,6 +968,9 @@ textarea:focus::-webkit-input-placeholder {
         align-items: center;
         justify-content: space-between;
     }
+    &__money {
+        min-width: 50%;
+    }
     &__table {
         &-title {
             display: flex;
@@ -978,6 +982,9 @@ textarea:focus::-webkit-input-placeholder {
             &--nomargin {
                 margin-right: 0;
                 @include fluid(margin-left, 4px, 8px);
+            }
+            &--fixWidth {
+                min-width: 50%;
             }
         }
         &-th {
@@ -994,13 +1001,13 @@ textarea:focus::-webkit-input-placeholder {
                 width: 7%;
             }
             &--newid {
-                width: 10%;
+                width: 9%;
             }
             &--sum {
                 width: 10%;
             }
             &--newsum {
-                width: 15%;
+                width: 20%;
             }
             &--paddingLeft {
                 padding-left: 5%;
@@ -1069,7 +1076,7 @@ textarea:focus::-webkit-input-placeholder {
                 justify-content: flex-end;
             }
             &--between {
-                width: 15%;
+                width: 20%;
                 justify-content: space-between;
                 &:first-child {
                     margin-right: 10%;
@@ -3785,6 +3792,12 @@ input:checked + label.connect-item__switch::after {
             position: absolute;
             right: 15px;
             top: 15px;
+        }
+        &__money {
+            min-width: auto;
+        }
+        &__wrapper {
+            flex-grow: 0;
         }
     }
 }
