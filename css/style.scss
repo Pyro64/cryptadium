@@ -1991,16 +1991,16 @@ input:checked + label.connect-item__switch::after {
             // border: 2px solid #D8E2EB;
         }
         &-icon {
-            background: url('../image/icon/email.svg'), no-repeat;
-            @include fluid(width, 17px, 24px);
-            @include fluid(height, 17px, 24px);
+            background: url('../image/icon/email.svg') no-repeat;
+            width: 27px;
+            height: 27px;
             background-size: contain;
             @include fluid(margin-right, 10px, 15px);
         }
         &-social {
-            background: url('../image/icon/telegram.svg'), no-repeat;
-            @include fluid(width, 15px, 20px);
-            @include fluid(height, 15px, 20px);
+            background: url('../image/icon/telegram.svg') no-repeat;
+            width: 20px;
+            height: 20px;
             background-size: contain;
             @include fluid(margin-right, 10px, 15px);
         }
@@ -2821,24 +2821,21 @@ input:checked + label.connect-item__switch::after {
     border-radius: 4px;
     background: #fff;
     cursor: pointer;
-    position: relative;
+    display: flex;
+    align-items: center;
     @include fluid(width, 130px, 180px);
     @include fluid(font-size, 14px, 16px);
     @include fluid(padding-top, 5px, 10px);
     @include fluid(padding-bottom, 5px, 10px);
     @include fluid(padding-right, 10px, 20px);
-    @include fluid(padding-left, 25px, 40px);
-    &::before {
-        background: url('../image/icon/copy.svg');
+    @include fluid(padding-left, 10px, 20px);
+    &__icon {
+        background: url('../image/icon/copy.svg') no-repeat;
         @include fluid(width, 16px, 24px);
         @include fluid(height, 16px, 24px);
         background-size: contain;
-        content: '';
-        position: absolute;
-        @include fluid(left, 5px, 10px);
-        top: 50%;
-        transform: translateY(-50%);
     }
+
     p {
         transition: 0.38s ease-in-out;
         @include fluid(margin-left, 5px, 10px);
@@ -3552,7 +3549,9 @@ input:checked + label.connect-item__switch::after {
         display: flex;
         flex-wrap: wrap;
     }
-
+    &__select {
+        display: none;
+    }
     &__color {
         display: flex;
         flex-wrap: wrap;
@@ -3641,8 +3640,7 @@ input:checked + label.connect-item__switch::after {
         @include fluid(padding-bottom, 35px, 75px);
         @include fluid(padding-left, 35px, 50px);
         @include fluid(padding-right, 35px, 50px);
-        &-block {
-        }
+
         &-name {
             font-weight: 600;
             text-align: center;
@@ -4277,6 +4275,11 @@ input:checked + label.connect-item__switch::after {
                 margin-right: 5px;
             }
         }
+        &__tab {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 15px;
+        }
     }
     .headerModal {
         margin-bottom: 20px;
@@ -4405,6 +4408,12 @@ input:checked + label.connect-item__switch::after {
             }
             &-item {
                 width: 29%;
+                &--minWidth {
+                    width: 24%;
+                }
+                &--maxWidth {
+                    width: 50%;
+                }
             }
             &-line {
                 justify-content: space-between;
@@ -4457,6 +4466,10 @@ input:checked + label.connect-item__switch::after {
         &__total {
             width: 100%;
             margin-bottom: 25px;
+            &-svg {
+                width: 30px;
+                height: 30px;
+            }
         }
         &__copy {
             width: 100%;
@@ -4469,10 +4482,12 @@ input:checked + label.connect-item__switch::after {
         }
     }
     .copyBtn {
-        width: 100%;
+        width: 210px;
         align-items: center;
         justify-content: center;
         margin-top: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     .control {
         width: 100%;
@@ -4542,12 +4557,15 @@ input:checked + label.connect-item__switch::after {
                 width: 100%;
             }
             &-container {
-                flex-direction: column;
                 align-items: flex-start;
                 margin-bottom: 15px;
             }
             &-btn {
                 width: 100%;
+            }
+            &-status {
+                width: 45%;
+                text-align: right;
             }
         }
     }
@@ -4826,6 +4844,18 @@ input:checked + label.connect-item__switch::after {
         }
         &__block {
             margin-bottom: 20px;
+        }
+    }
+    .custom {
+        &__item {
+            display: none;
+            &--color {
+                display: flex;
+            }
+        }
+        &__select {
+            display: block;
+            margin-bottom: 30px;
         }
     }
 }
