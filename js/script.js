@@ -54,51 +54,17 @@ $(document).ready(function () {
     }
     const questionBlock = document.querySelectorAll('.questions__block')
     const question = document.querySelectorAll('.questions-js')
-    // question.forEach(q => {
-    //     q.addEventListener('click', () => {
-    //         q.nextElementSibling.classList.add('questions__block--active')
-    //     })
-    // })
 
-    removeQuestions = () => {
-        questionBlock.forEach(e => {
-            e.classList.remove('questions__block--active')
-        })
+    $(".questions-js").click(function () {
+        $(this).next().toggle('questions__block--active')
+    });
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest(".questions").length) {
+            $('.questions__block').hide();
+        }
+        e.stopPropagation();
+    });
 
-    }
-    document.addEventListener('click', (e) => {
-        question.forEach(q => {
-            q.addEventListener('click', () => {
-                q.nextElementSibling.classList.add('questions__block--active')
-            })
-            console.log(q)
-            let target = e.target;
-
-            let its_questionBtn = target == q
-
-
-
-            if (question.some(its_questionBtn)) {
-                removeQuestions();
-            }
-        })
-    })
-    // document.addEventListener('click', function (e, q) {
-    //     let target = e.target;
-    //     question.forEach(e => {
-    //         let its_questionBtn = target == question;
-    //         console.log(its_questionBtn)
-    //         if (!its_questionBtn) {
-    //             removeQuestions();
-    //         }
-    //     })
-    //     // questionBlock.forEach(e => {
-    //     //     let its_question = target == e;
-    //     //     if (!its_question) {
-    //     //         removeQuestions();
-    //     //     }
-    //     // })
-    // })
     $(".referal__level-title").click(function () {
         $(this).toggleClass('referal__level-title--open')
     })
