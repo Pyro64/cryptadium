@@ -703,13 +703,17 @@ textarea:focus::-webkit-input-placeholder {
     display: flex;
     justify-content: space-between;
     &__block {
-        width: 47%;
+        width: 100%;
     }
 
     &__item {
+        @include fluid(margin-bottom, 15px, 30px);
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
         display: flex;
         align-items: baseline;
-        @include fluid(margin-bottom, 15px, 30px);
     }
     &__text {
         &-number {
@@ -732,6 +736,7 @@ textarea:focus::-webkit-input-placeholder {
             @include fluid(margin-right, 6px, 8px);
             &--red {
                 background: url('../image/icon/readArrow.svg') no-repeat;
+                background-size: contain;
             }
         }
         &-text {
@@ -746,6 +751,9 @@ textarea:focus::-webkit-input-placeholder {
     }
     &__table {
         width: 100%;
+        &--minWidth {
+            width: 48%;
+        }
         &-title {
             @include fluid(font-size, 15px, 17px);
             color: #000;
@@ -804,7 +812,9 @@ textarea:focus::-webkit-input-placeholder {
             background-size: contain;
             @include fluid(margin-right, 7px, 10px);
             &--noClock {
-                @include fluid(padding-left, 10px, 20px);
+                @include fluid(width, 8px, 9px);
+                @include fluid(height, 8px, 11px);
+                @include fluid(margin-right, 7px, 10px);
             }
         }
         &-text {
@@ -3909,6 +3919,18 @@ input:checked + label.connect-item__switch::after {
             &-text {
                 text-align: right;
                 width: 100%;
+                margin-right: 0;
+            }
+        }
+        &__table {
+            &-td {
+                width: 33%;
+                &--valute {
+                    width: 39%;
+                }
+                &:last-child {
+                    text-align: right;
+                }
             }
         }
     }
@@ -4240,6 +4262,18 @@ input:checked + label.connect-item__switch::after {
         &-item {
             &__switch {
                 margin-left: 50px;
+            }
+        }
+    }
+    .balance {
+        &__table {
+            &-td {
+                &--valute {
+                    width: 46%;
+                }
+                &:last-child {
+                    padding-right: 10px;
+                }
             }
         }
     }
@@ -4858,12 +4892,43 @@ input:checked + label.connect-item__switch::after {
             margin-bottom: 30px;
         }
     }
+    .balance {
+        &__item {
+            flex-direction: column;
+        }
+        &__table {
+            &--minWidth {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        &__tbody {
+            &-item {
+                align-items: flex-end;
+                justify-content: flex-end;
+                width: 60%;
+                &--valute {
+                    width: 20%;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 400px) {
     .referal {
         &__coin {
             &--noWidth {
                 flex-grow: 1;
+            }
+        }
+    }
+    .balance {
+        &__table {
+            &-td {
+                width: 36%;
+                &--valute {
+                    width: 35%;
+                }
             }
         }
     }
