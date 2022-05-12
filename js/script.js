@@ -6,6 +6,8 @@ $(window).on("load", function () {
 });
 $(".accordeon-js").click(function () {
   $(this).toggleClass("in").next().stop().slideToggle();
+  $(this).children(".history__dateItem").children(".history__arrow").toggleClass("open");
+  console.log(this)
 });
 $(document).ready(function () {
   const targetTab = document.querySelectorAll("[data-targetTab]"),

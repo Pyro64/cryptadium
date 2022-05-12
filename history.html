@@ -234,7 +234,7 @@
                     <div data-targettab="2" class="content__tab ">История выводов</div>
                 </div>
                 <div class="referal">
-                    <div data-tab="1" class=" content-js">
+                    <div data-tab="1" class=" content-js content-js--opacity content-js--active">
                         <div class="content__block">
                             <div class="history">
                                 <form class="history__search">
@@ -441,7 +441,7 @@
                             </div>
                         </div>
                     </div>
-                    <div data-tab="2" class=" content-js content-js--opacity content-js--active">
+                    <div data-tab="2" class=" content-js ">
                         <div class="content__block">
                             <div class="history">
                                 <form class="history__search">
@@ -485,19 +485,37 @@
                                 </div>
                                 <div class="history__table">
                                     <div class="history__table-title">
-                                        <div class="history__table-th history__table-th--tenprocent">Дата</div>
+                                        <div
+                                                class="history__table-th history__table-th--tenprocent  history__table-th--none">
+                                            Id
+                                        </div>
                                         <div class="history__table-th history__table-th--tenprocent">Сумма</div>
                                         <div
-                                            class="history__table-th history__table-th--none history__table-th--twentyprocent">
-                                            Сумма в
-                                            криптовалюте
+                                                class="history__table-th history__table-th--twentyprocent history__table-th--none">
+                                            Сумма в криптовалюте
+                                        </div>
+                                        <div class="history__table-th history__table-th--tenprocent">Статус
+                                            <div class="questions">
+                                                <div class="questions__svg questions-js"></div>
+                                                <div class="questions__block">
+                                                    <div class="questions__block-text questions__block-text--green">
+                                                        <span>Успешно</span> - операция состоялась.
+                                                    </div>
+                                                    <div class="questions__block-text questions__block-text--red">
+                                                        <span>Отклонено</span> - операция не состоялась.
+                                                    </div>
+                                                    <div class="questions__block-text questions__block-text--yellow">
+                                                        <span>Хедж-фонд</span>- средства захеджированы.
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div
-                                            class="history__table-th history__table-th--textRight history__table-th--thirtyprocent  history__table-th--none ">
+                                                class="history__table-th history__table-th--thirtyprocent  history__table-th--textRight  history__table-th--none">
                                             Адрес кошелька</div>
                                         <div
-                                            class="history__table-th history__table-th--textRight history__table-th--twentyprocent history__table-th--date">
-                                            Id</div>
+                                                class="history__table-th history__table-th--textCenter  history__table-th--tenprocent">
+                                            Дата</div>
                                     </div>
                                     <div class="history__table-tbody accordeon-js">
                                         <div class="history__dateItem history__dateItem--static">
@@ -514,11 +532,20 @@
                                                 <div class="history__table-text history__table-text--nomargin">BTCccccc
                                                 </div>
                                             </div>
+                                            <a href="#" target="blank"
+                                               class="history__table-item history__table-item--red history__table-item--autoWidth">
+                                                Хедж-фонд
+                                            </a>
                                         </div>
-                                        <div class=" history__code history__code--minWidth
+
+
+
+
+                                        <div class="history__table-item history__code
+
                                         ">
                                             1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
-                                        <div class="history__table-item history__dateItem history__dateItem--maxWidth">
+                                        <div class="history__table-item history__dateItem ">
                                             <div class="history__table-text">1325</div>
                                             <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
                                         </div>
@@ -549,11 +576,15 @@
                                                 <div class="history__table-text history__table-text--nomargin">BTCccccc
                                                 </div>
                                             </div>
+                                            <a href="#" target="blank"
+                                               class="history__table-item history__table-item--yellow history__table-item--autoWidth">
+                                                Хедж-фонд
+                                            </a>
                                         </div>
-                                        <div class=" history__code history__code--minWidth
+                                        <div class=" history__code history__table-item
                                         ">
                                             1GZYqMyLYRd4wmpehfj6HeVVUHuF4zv97F</div>
-                                        <div class="history__table-item history__dateItem history__dateItem--maxWidth">
+                                        <div class="history__table-item history__dateItem ">
                                             <div class="history__table-text">1325</div>
                                             <img class="history__table-coin" src="./image/icon/dowload.svg" alt="">
                                         </div>
