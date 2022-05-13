@@ -4,11 +4,13 @@ $(window).on("load", function () {
   $loader.delay(200).fadeOut();
   $preloader.delay(200).fadeOut("slow");
 });
-$(".accordeon-js").click(function () {
-  $(this).toggleClass("in").next().stop().slideToggle();
-  $(this).children(".history__dateItem").children(".history__arrow").toggleClass("open");
-  console.log(this)
+$(".history__table-tbody--js").click(function () {
+
+  $(this).children(".history__dateItem").children(".history__arrow").toggleClass("open--table");
 });
+ $(".accordeon-js").click(function(){
+   $(this).toggleClass("in").next().stop().slideToggle();
+})
 $(document).ready(function () {
   const targetTab = document.querySelectorAll("[data-targetTab]"),
     content = document.querySelectorAll(".content-js");
